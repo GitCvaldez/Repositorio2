@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 .clear {clear: both;}
+.menu {float: right; }
+
 a  { text-decoration: none;}
 .menu ul { list-style-type: none; margin-right: 20px; padding: 10px 0; }
 .menu ul li {float:left;}
@@ -27,7 +29,6 @@ padding:20px 0; position: relative;
 position: relative;
 }
 
-.menu {float: right; }
 
 .content {width: 80%; float: left;
             padding:20px ;
