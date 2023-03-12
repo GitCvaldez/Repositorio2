@@ -5,9 +5,9 @@
 }
 .clear {clear: both;}
 a  { text-decoration: none;}
-.menu ul { list-style-type: none; margin-right: 20px;}
+.menu ul { list-style-type: none; margin-right: 20px; padding: 10px 0; }
 .menu ul li {float:left;}
-.menu ul li a {display:block; margin: 20px;}
+.menu ul li a {display:block; margin: 0 20px; }
 
 
 #contenido {
@@ -18,13 +18,16 @@ a  { text-decoration: none;}
 
 }
 
-#header {width: 100%; background:#ddd ;}
-
-#contenido .logo {margin: 20px 20px;
-    float: left;
+#header {width: 100%; background:#ddd ;
+padding:20px 0; position: relative;
 }
 
-.menu {float: right;}
+#contenido .logo {margin: 0px 20px;
+    float: left;
+position: relative;
+}
+
+.menu {float: right; }
 
 .content {width: 80%; float: left;
             padding:20px ;
@@ -33,7 +36,7 @@ a  { text-decoration: none;}
 }
 #side 
 {overflow: hidden;
-     width: 20%; float:left; padding:;
+     width: 20%; float:left; 
        background: #de6587; padding: 20px;}
 #footer {
     background: #84f356;
